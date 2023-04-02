@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="bgColor">#ff000000</color>
+    <color name="borderColor">#212121</color>
+    <color name="itemColor">#212121</color>
+
+    <color name="textPrimaryColor">#FFFFFF</color>
+    <color name="textSecondaryColor">#CCCCCC</color>
+
+    <color name="colorPrimaryDarkMenu">#000000</color>
+    <color name="colorPrimarybg">#212121</color>
+
+    <color name="actionBarBgColor">#FFFFFF</color>
+    <color name="actionBarTextColor">#000000</color>
+
+
+    <color name="colorAccent">#009688</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_white">#d4d4d4</color>
+
+    <color name="black">#000000</color>
+    <color name="gray_color">#ccc</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_gray">#9c9c9c</color>
+    <array name="dot_colors">
+        <item>#03A9F4</item>
+        <item>#E65100</item>
+        <item>#FFBB00</item>
+    </array>
+
+
+    <color name="blue">#303f9f</color>
+    <color name="green">#388e3c</color>
+    <color name="red">#d32f2f</color>
+    <color name="pink">#c2185b</color>
+    <color name="pruple">#7b1fa2</color>
+    <color name="yellow">#ffa000</color>
+    <color name="orange">#ff6d00</color>
+    <color name="blue_bg_light">#33303F9F</color>
+    <color name="red_bg_light">#33D32F2F</color>
+    <color name="yellow_bg_light">#33FFA000</color>
+    <color name="pink_bg_light">#33C2185B</color>
+    <color name="orange_bg_light">#33FF6D00</color>
+    <color name="pruple_bg_light">#337B1FA2</color>
+    <color name="green_bg_light">#33388E3C</color>
+</resources>

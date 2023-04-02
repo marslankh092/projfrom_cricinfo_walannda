@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/bgColor"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:elevation="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="10dp"
+            android:gravity="center|left"
+            android:textSize="13dp"
+            android:id="@+id/text_view_item_full_screen_title"
+            android:textColor="@color/textPrimaryColor"
+            android:textStyle="bold"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/full_screen_videos"
+            android:layout_width="match_parent"
+            android:layout_marginRight="90dp"
+            android:layout_height="40dp" />
+
+            <RelativeLayout
+                android:layout_alignParentRight="true"
+                android:id="@+id/relative_layout_show_all_portrait_all"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:visibility="visible"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:padding="3dp"
+                    android:layout_marginLeft="5dp"
+                    app:tint="@color/colorAccent"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_more"
+                    android:id="@+id/image_view_item_category_status"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/relativeLayout"
+        android:elevation="6dp"
+        android:visibility="visible"
+        android:id="@+id/recycler_view_item_portrait_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        />
+</RelativeLayout>

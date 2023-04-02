@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ironsource.adapters:facebookadapter:4.3.38@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fa26d3f610a05c55641190cf9fadb30b/transformed/jetified-facebookadapter-4.3.38/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa26d3f610a05c55641190cf9fadb30b/transformed/jetified-facebookadapter-4.3.38/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa26d3f610a05c55641190cf9fadb30b/transformed/jetified-facebookadapter-4.3.38/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

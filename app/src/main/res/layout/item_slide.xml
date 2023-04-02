@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout_slide"
+    android:layout_width="match_parent"
+    android:layout_height="275dp"
+   >
+    <com.virmana.status_app_all.ui.view.ClickableViewPager
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="70dp"
+        android:id="@+id/view_pager_slide"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+    </com.virmana.status_app_all.ui.view.ClickableViewPager>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:paddingLeft="10dp"
+            android:gravity="center|left"
+            android:textSize="13dp"
+            android:id="@+id/text_view_item_full_screen_title"
+            android:textColor="@color/textPrimaryColor"
+            android:textStyle="bold"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/popular_categories"
+            android:layout_width="match_parent"
+            android:layout_marginRight="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_height="40dp" />
+        <com.github.vivchar.viewpagerindicator.ViewPagerIndicator
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id = "@+id/view_pager_indicator"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            app:delimiterSize = "4dp"
+            app:itemSize="6dp"
+            app:itemSelectedTint="@color/colorAccent"
+            app:itemTint="@color/textSecondaryColor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>
